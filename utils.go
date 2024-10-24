@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 
-func FormatPrint(data WordInfo){
+func formatPrint(data WordInfo){
 
 	// ensure word info is not empty
 	if data.Word == "" {

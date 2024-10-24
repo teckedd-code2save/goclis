@@ -33,7 +33,7 @@ func main() {
 		if contains(args, "guess") {
 			word := guessworrd()
 			data := explain(word)
-			FormatPrint(data)
+			formatPrint(data)
 		}
 
 	}
